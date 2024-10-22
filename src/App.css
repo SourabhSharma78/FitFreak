@@ -1,0 +1,180 @@
+.Home .header{
+  margin-top: 0%;
+  background: #1c1c1c;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TagLine{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+  margin-top: 13%;
+  color: #ffff;
+  background-color: #1c1c1cee;
+  width: 50rem;
+  margin-left: 23%;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.Home {
+  background-image: url(./assets/bg.avif);
+  height: 100vh; 
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+::-webkit-scrollbar {
+  display: none; 
+}
+
+.login{
+  height: 100vh;
+  background-image: url("./assets/bg.avif");
+  background-size: cover;
+  color: #cee0e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+button{
+  background-color: #1c1c1c;
+  color: #cee0e3;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 10rem;
+  font-weight: 600;
+  border: 1px solid whitesmoke;
+  margin: 2rem 1rem 2rem 5rem ;
+  text-overflow: clip;
+}
+
+button:hover{
+  background-color: #cee0e3;
+  color: #1c1c1c;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 10rem;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid black;
+  box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.container{
+  display: flex;
+  margin-left: 10rem;
+  flex-direction: column;
+  border: 3px solid rgba(26, 156, 211, 0.368);
+  box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.5);
+  background-color: #1c1c1ce6;
+  height: 25rem;
+  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin-left: 33%;
+}
+
+.login form input{
+  width: 20rem;
+  margin: 1rem;
+  margin-left: 4rem;
+  border: 4px 4px 4px 4px black ;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.Memberheader{
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+}
+
+.Memberheader .nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.Memberheader .logo{
+  display: flex;
+  color: aliceblue;
+  width: 50%;
+  margin-left: 1rem ;
+}
+
+.Memberheader .logo h3{
+  margin-left: 1rem;
+}
+
+.AdminHeader{
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+}
+
+.AdminHeader .nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.AdminHeader .logo{
+  display: flex;
+  color: aliceblue;
+  width: 50%;
+  margin-left: 1rem ;
+}
+
+.AdminHeader .logo h3{
+  margin-left: 1rem;
+}
+
+.admin-nav{
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards{
+  height: 20rem;
+  width: 25rem;
+  background-color: #0d53458a;
+  border-radius: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards button{
+  margin: 30%;
+}
+
+.member-body{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
