@@ -1,16 +1,14 @@
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { BrowserRouter } from 'react-router-dom'
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
 import './App.css';
-import { GoogleOAuthProvider } from '@react-oauth/google';
-
+import { BrowserRouter } from 'react-router-dom';
+import ErrorBoundary from './Components/ErrorBoundary'; 
 
 createRoot(document.getElementById('root')).render(
-  
-  <GoogleOAuthProvider clientId={import.meta.env.GOOGLE_AUTH_CLIENT_ID}>
-    <BrowserRouter>
+  <BrowserRouter>
+    <ErrorBoundary>
       <App />
-    </BrowserRouter>
-  </GoogleOAuthProvider>,
-)
+    </ErrorBoundary>
+  </BrowserRouter>
+);

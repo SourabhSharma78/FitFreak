@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from '../firebaseConfig.js'; // Import your firebase auth instance
+import { auth } from '../firebaseConfig.js'; 
 import {useNavigate} from "react-router-dom";
 
 const Register = () => {
@@ -13,7 +13,7 @@ const Register = () => {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, pass);
-      navigate("/member");
+      navigate("/user");
     } catch (err) {
       console.log("Error during registration:", err.message);
     }

@@ -8,10 +8,7 @@ const Member = () => {
     <Memberheader/>
       <div className='member-body'>
       <div className='cards'>
-        <Link to="/bill-receipts"><button> View bill receipts</button></Link>
-      </div>
-      <div className='cards'>
-      <Link to="/bill-notify"><button>View Bill Notifications</button></Link>
+      <Link to="/bill-notify"><button>View Bill Notifications/Receipts</button></Link>
       </div>
       </div>
     </div>

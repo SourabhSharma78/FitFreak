@@ -14,7 +14,6 @@ const Admin = () => {
         <div className='cards'><Link to="/report-export"><button> Report Export  </button></Link></div>
         <div className='cards'><Link to="/store-suppliment"><button> Suppliment store  </button></Link></div>
         <div className='cards'><Link to="/diet-details"><button> Diet </button></Link></div>
-
     </div>
     </div>
   );
